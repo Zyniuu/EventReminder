@@ -1,0 +1,37 @@
+#askWindow {
+	background: #ecf0f1;
+	border-radius: 10px;
+	border: 2px groove #7f8c8d;
+}
+
+#warningLabel {
+	color: #b84848;
+	font-size: 20px;
+}
+
+#questionLabel {
+	color: #34495e;
+	font-size: 16px;
+}
+
+#eventTitleLabel {
+	color: #2c3e50;
+	font-size: 18px;
+}
+
+#yesBtn {
+	background: #27ae60;
+}
+
+#noBtn {
+	background: #c0392b;
+}
+
+#yesBtn, #noBtn {
+	box-shadow: none;
+	color: white;
+}
+
+#warningLabel, #eventTitleLabel {
+	font-weight: bold;
+}

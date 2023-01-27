@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.40.0 -->
+<interface>
+  <requires lib="gtk+" version="3.24"/>
+  <object class="GtkWindow" id="askWindow">
+    <property name="name">askWindow</property>
+    <property name="can-focus">False</property>
+    <property name="window-position">center-on-parent</property>
+    <property name="default-width">368</property>
+    <property name="default-height">190</property>
+    <property name="decorated">False</property>
+    <child>
+      <object class="GtkFixed">
+        <property name="visible">True</property>
+        <property name="can-focus">False</property>
+        <child>
+          <object class="GtkLabel" id="warningLabel">
+            <property name="name">warningLabel</property>
+            <property name="width-request">368</property>
+            <property name="height-request">40</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">Uwaga!</property>
+            <property name="justify">center</property>
+          </object>
+        </child>
+        <child>
+          <object class="GtkLabel" id="questionLabel">
+            <property name="name">questionLabel</property>
+            <property name="width-request">368</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">Czy na pewno chcesz usunąć
+wydarzenie:</property>
+            <property name="justify">center</property>
+          </object>
+          <packing>
+            <property name="y">40</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="eventTitleLabel">
+            <property name="name">eventTitleLabel</property>
+            <property name="width-request">368</property>
+            <property name="height-request">60</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+          </object>
+          <packing>
+            <property name="y">80</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="yesBtn">
+            <property name="label" translatable="yes">Tak</property>
+            <property name="name">yesBtn</property>
+            <property name="width-request">52</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+          </object>
+          <packing>
+            <property name="x">124</property>
+            <property name="y">146</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="noBtn">
+            <property name="label" translatable="yes">Nie</property>
+            <property name="name">noBtn</property>
+            <property name="width-request">52</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+          </object>
+          <packing>
+            <property name="x">185</property>
+            <property name="y">146</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>

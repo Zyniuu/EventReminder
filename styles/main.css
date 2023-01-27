@@ -1,0 +1,52 @@
+#events {
+	background: #e8eaec;
+}
+
+#content {
+	background: #fafafa;
+}
+
+#menu {
+	background: #d7d8de;
+}
+
+#properties {
+	font-size: 16px;
+	color: black;
+}
+
+#title {
+	font-size: 32px;
+	font-weight: 900;
+}
+
+#description {
+	font-size: 24px;
+	font-weight: 900;
+}
+
+#trash {
+	background: #701e1e;
+	margin-right: 5px;
+}
+
+#colon {
+	font-size: 48px;
+	font-weight: bold;
+}
+
+.add-edit {
+	background: #4a4a4a;
+	margin-left: 5px;
+}
+
+.event-button {
+	padding: 10px 0px;
+	font-size: 15px;
+	font-weight: 600;
+	color: #707070;
+}
+
+#trash, .add-edit {
+	box-shadow: none;
+}
